@@ -1,0 +1,362 @@
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  overflow: hidden;
+  background-color: black;
+  height: 100%;
+}
+
+.container_header {
+  max-width: 1750px;
+   height: auto;
+
+}
+
+.img_global {
+  display: flex;
+  justify-content: space-between;
+padding: 15px;
+   gap: 15px;
+   margin-left: 120px;
+}
+
+.global {
+  width: 60px;
+height: 60px;
+flex-shrink: 0;
+margin-top: 5px;
+
+}
+
+.title_gl {
+  color: #FFF;
+font-family: Malgun Gothic;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-right: 1390px;
+
+}
+
+.gb {
+  text-decoration: none;
+   color: #fff;
+}
+
+.burger {
+ background-color: transparent;
+  border: none;
+   cursor: pointer;
+}
+
+.burgerr_line{
+  margin-left: 7px;
+  background: #fff;
+   width: 35px;
+    height: 5px;
+     margin-bottom: 6px;
+}
+
+.burger_line {
+  background: #fff;
+   width: 50px;
+    height: 5px;
+     margin-bottom: 6px;
+}
+
+
+.bur {
+
+}
+
+
+
+
+/*BUR*/
+
+.content_about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px;
+  padding-top: 50px;
+  position: absolute;
+}
+
+
+
+
+.content_about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.vl {
+  border-left: 4px solid #504A4B;
+    width: 600px;
+
+}
+
+.hhr {
+ padding-top: 720px;
+}
+
+.hr {
+  width: 800px;
+ 
+}
+
+.left {
+  margin-left: 100px;
+  display: flex;
+margin-right: 13%;
+  justify-content: center;
+  gap: 100px;
+  font-family: 'Mako';
+}
+
+.title_left {
+  font-family: 'Mako';
+  margin-left: 15px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 10px;
+ align-items: center;
+  
+ 
+color: #FFFFFF;
+}
+
+.titlee_left {
+  font-family: 'Mako';
+  margin-left: 15px;
+font-style: normal;
+font-weight: 400;
+display: flex;
+font-size: 12px;
+line-height: 10px;
+ align-items: center;
+  text-align: center;
+ padding-bottom: 105px;
+color: #FFFFFF;
+}
+
+
+.titleee_left {
+    font-family: 'Mako';
+  margin-left: 15px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 10px;
+ align-items: center;
+  
+ padding-bottom: 30px;
+color: #FFFFFF;
+}
+
+
+
+
+
+.index {
+  text-decoration: none;
+   color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*cards*/
+
+.cards-container {
+	position: absolute;
+	max-width: 100%;
+	padding-top: 150px;
+}
+
+.title_card {
+	color: #FFF;
+font-family: Malgun Gothic;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+text-align: center;
+justify-content: center;
+position: relative;
+letter-spacing: 1px;
+padding-bottom: 35px;
+}
+
+.sup_card {
+		color: white;
+text-align: center;
+text-shadow: 50px 4px 250px rgba(115, 2131, 2414, 10.70);
+font-family: Mako;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 200px;
+margin-left: 178px;
+}
+
+.p_card {
+	color: #FFF;
+text-align: center;
+text-shadow: 10px 4px 250px rgba(15, 231, 244, 0.50);
+font-family: Mako;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 200px;
+margin-left: 178px;
+}
+
+.card_body{
+  text-align: center;
+  margin: 30px;
+}
+
+.cards-container .active {
+  opacity: 0.5 ;
+  transition: all 0.3s;
+
+}
+.cards-container .center {
+  opacity: 1;
+
+}
+
+.card-img-top {
+	max-width: 40%;
+	max-height: 40%;
+	margin: 0 auto;
+	padding: 0 auto;
+	position: relative;
+  transform: translateX(0px);
+    animation: float 6s ease-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(1px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+  100% {
+    transform: translateY(1px);
+  }
+}
+
+
+@media (max-width: 767px) {
+  .cards-container {
+    margin-top: 20px;
+ }
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+  outline: 0;
+}
+.owl-carousel button.owl-dot {
+  outline: 0;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+
+
+.container_header {
+  max-width: 800px;
+    align-items: center;
+     justify-content: space-between;
+
+      display: flex;
+
+}
+
+
+.title_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.af {
+  display: flex;
+  justify-content: center;
+
+}
+
+.burger_line {
+
+}
+
+.cards-container {
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

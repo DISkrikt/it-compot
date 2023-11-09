@@ -1,0 +1,176 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+
+}
+
+.body {
+     padding:0px;
+margin:0px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+      'Segoe UI Symbol';
+
+    }
+
+
+
+.container {
+  max-width: 1500px;
+
+}
+
+.content {
+  justify-content: space-between;
+  display: flex;
+  margin: 100px;
+}
+
+.end {
+  
+}
+
+.back {
+justify-content: center;
+display: flex;
+align-items: center;
+padding-top: 50%;
+margin-left: 50%;
+}
+
+
+
+
+/*text*/
+.text {
+  text-align: center;
+padding-top: 8%;
+}
+
+
+.Home {
+  color: #FFF;
+font-family: 'Inter';
+font-size: 270%;
+font-style: normal;
+font-weight: 1000;
+line-height: normal;
+position: relative;
+}
+
+.Homee {
+  color: #FFF;
+font-family: 'Inter';
+font-size: 120%;
+font-style: normal;
+font-weight: 1000;
+line-height: normal;
+
+position: relative;
+}
+
+.home__line {
+  height: 12px;
+  background-color: #1233E3;
+  width: 430px;
+  position: absolute;
+  bottom: 18px;
+  right: -19%;
+}
+
+
+
+.index {
+  text-decoration: none;
+   color: #FFFFFF;
+
+}
+
+@media screen and (max-width: 800px) {
+
+
+
+.content {
+  max-width: 800px;
+  max-height: 100%;
+  margin:  0 auto;
+}
+
+
+.back {
+   margin-left: 5%;
+max-width: 130%;
+}
+
+.text {
+padding-top: 12%;
+
+}
+
+.home__line {
+  left: 22px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+
+.body {
+  overflow: hidden;
+}
+
+
+.content {
+  max-width:400px;
+  max-height: 100%;
+  margin:  0 auto;
+}
+
+
+.back {
+   margin-left: 5%;
+max-width: 130%;
+}
+
+.text {
+padding-top: 15%;
+font-size: 11px;
+}
+
+.home__line {
+  left: -1%;
+  height: 10px;
+  bottom: 12px;
+  width: 127px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

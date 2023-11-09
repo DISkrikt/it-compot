@@ -1,0 +1,713 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+background: black;
+
+}
+
+.body {
+     padding:0px;
+margin:0px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+      'Segoe UI Symbol';
+
+    }
+
+
+.container {
+	max-width: 1500px;
+	 height: auto;
+
+}
+
+.img_global {
+	display: flex;
+	justify-content: space-between;
+padding: 15px;
+	 gap: 15px;
+	 margin-left: 100px;
+}
+
+.global {
+	width: 60px;
+height: 60px;
+flex-shrink: 0;
+margin-top: 5px;
+
+}
+
+.gb {
+    text-decoration: none;
+    color: #fff;
+}
+
+.title_gl {
+	color: #FFF;
+font-family: Malgun Gothic;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-right: 1190px;
+
+}
+
+/*burger*/
+
+.burger {
+ background-color: transparent;
+  border: none;
+   cursor: pointer;
+   right: 10%;
+   bottom: 92%;
+   position: absolute;
+}
+
+.burgerr_line{
+  margin-left: 7px;
+  background: #fff;
+   width: 35px;
+    height: 5px;
+     margin-bottom: 6px;
+}
+
+.burger_line {
+  background: #fff;
+   width: 50px;
+    height: 5px;
+     margin-bottom: 6px;
+}
+
+
+.bur {
+display: none;
+}
+
+
+
+/*header_main*/
+
+
+
+
+.container_main {
+	max-width: 1500px;
+	 height: auto;
+
+}
+
+.content_about {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+	margin-left: 120px;
+	gap: 100px;
+	
+
+}
+
+
+/*left*/
+
+.vl {
+	border-left: 4px solid #504A4B;
+    height: 600px;
+    
+}
+
+.left_about {
+	padding-bottom: 95px;
+}
+
+.title_left {
+	font-family: 'Mako';
+	margin-left: 15px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 10px;
+ align-items: center;
+  width: 100px;
+ padding-bottom: 105px;
+color: #FFFFFF;
+}
+
+.titlee_left {
+	font-family: 'Mako';
+	margin-left: 15px;
+font-style: normal;
+font-weight: 400;
+display: flex;
+font-size: 12px;
+line-height: 10px;
+ align-items: center;
+  text-align: center;
+ padding-bottom: 105px;
+color: #FFFFFF;
+}
+
+.index {
+	text-decoration: none;
+	 color: #FFFFFF;
+}
+
+.titleee_left {
+		font-family: 'Mako';
+	margin-left: 15px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 10px;
+ align-items: center;
+  
+ padding-bottom: 30px;
+color: #FFFFFF;
+}
+
+
+.img_vl {
+display: flex;
+ align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 300px;
+   transform: translateX(0px);
+    animation: float 6s ease-out infinite;
+}
+
+
+.photo_vl {
+width: 390px;
+height: 200;
+margin: 0 auto;
+padding: 0 auto;
+ display: grid;
+ margin-left: 550px;
+padding-top: 140px;
+position: relative;
+}
+
+.photo_vll {
+    width: 490px;
+height: 200;
+margin: 0 auto;
+margin-right: 170px;
+padding: 0 auto;
+ display: grid;
+ margin-left: 200px;
+ position: absolute;
+}
+
+.photo_vlll {
+        width: 390px;
+height: 200;
+padding-top: 85px;
+position: absolute;
+padding-top: 200px;
+margin: 0 auto;
+margin-right: 380px;
+padding: 0 auto;
+ display: grid;
+}
+
+.photo_v {
+    width: 490px;
+height: 200;
+margin: 0 auto;
+margin-right: 170px;
+padding-top: 100px;
+ display: grid;
+ margin-left: 350px;
+ transform: rotate(-47.771deg);
+ }
+
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+
+
+
+
+.text_p {
+    letter-spacing: 3px;
+    width:75%;
+
+
+position: relative;
+padding-bottom: 70px;
+    color: #FFF;
+text-align: center;
+font-family: Mako;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: relative;
+margin-left: 335px;
+
+
+}
+
+.tett_p {
+    letter-spacing: 3px;
+    width:75%;
+position: relative;
+padding: 100px;
+    color: #FFF;
+text-align: center;
+font-family: Mako;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: relative;
+margin-left: 335px;
+padding: 0 auto;
+}
+
+.titl_textt {
+        color: #FFF;
+font-family: Mako;
+font-size: 11px;
+padding: 10px;
+
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.title_text {
+    color: #FFF;
+font-family: Mako;
+font-size: 11px;
+
+
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.tet_p {
+        letter-spacing: 3px;
+    width:75%;
+padding: 100px;
+margin-right: 590px;
+    color: #FFF;
+text-align: center;
+font-family: Mako;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: relative;
+margin-left: 270px;
+padding: 0 auto;
+}
+
+.title_textt {
+        color: #FFF;
+font-family: Mako;
+font-size: 11px;
+padding-bottom: 10px;
+
+margin-right: 100px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+.block {
+      width:400px;
+      height:200px;
+      position:relative;
+      display: flex;
+       align-items: center;
+       justify-content: center;
+flex-direction: column;
+ }
+.block:before {
+      content:"";
+      width:5px;
+      height:1000px;
+      display:block;
+      left:50%;
+      position:absolute;
+background-color: #EDE1E1;
+
+	}
+
+
+
+svg {
+	margin-left: 4px;
+	padding-bottom: 40px;
+position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+.header {
+max-width: 800px;
+max-height: 100px;
+}
+
+
+
+/*header*/
+
+
+.img_global {
+    display: flex;
+    justify-content: space-between;
+padding: 15px;
+     gap: 15px;
+     margin-left: 5px;
+}
+
+.global {
+    width: 60px;
+height: 60px;
+flex-shrink: 0;
+margin-top: 5px;
+
+}
+
+.title_gl {
+    color: #FFF;
+font-family: Malgun Gothic;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-right: 1500px;
+
+}
+
+.gb {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*left*/
+
+.vl {
+    border-left: 4px solid #504A4B;
+    height: 600px;
+   margin-right: 200px;
+   position: absolute;
+   bottom: 31%;
+   right: 53%;
+}
+
+.left_about {
+    padding-bottom: 95px;
+
+}
+
+.title_left {
+    font-family: 'Mako';
+    margin-left: 10px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 10px;
+ align-items: center;
+  
+ padding-bottom: 105px;
+color: #FFFFFF;
+}
+
+.titlee_left {
+    font-family: 'Mako';
+    margin-left: 15px;
+font-style: normal;
+font-weight: 400;
+display: flex;
+font-size: 12px;
+line-height: 10px;
+ align-items: center;
+  text-align: center;
+ padding-bottom: 105px;
+color: #FFFFFF;
+}
+
+.index {
+    text-decoration: none;
+     color: #FFFFFF;
+}
+
+.titleee_left {
+        font-family: 'Mako';
+    margin-left: 15px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 10px;
+ align-items: center;
+  
+ padding-bottom: 30px;
+color: #FFFFFF;
+}
+
+
+
+
+
+/*center*/
+
+.block {
+      width:400px;
+      height:200px;
+      position:relative;
+      display: flex;
+       align-items: center;
+       justify-content: center;
+flex-direction: column;
+right: 70%;
+bottom: 100px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+.tet_p {
+        letter-spacing: 3px;
+    width:75%;
+padding: 100px;
+margin-right: 590px;
+    color: #FFF;
+text-align: center;
+font-family: Mako;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: relative;
+margin-left: 270px;
+padding: 0 auto;
+}
+
+.title_textt {
+        color: #FFF;
+font-family: Mako;
+font-size: 11px;
+padding-bottom: 10px;
+
+
+margin-right: 100px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+.photo_vll {
+
+ position: relative;
+bottom: 100px;
+margin-right: 400px;
+}
+
+.photo_vl {
+
+bottom: 150px;
+margin-right: 900px;
+ transform: rotate(-67.771deg);
+ position: relative;
+}
+
+.photo_vlll {
+bottom: 120px;
+margin-right: 1600px;
+transform: rotate(-27.771deg);
+ position: relative;
+}
+
+.img_vl {
+    position: relative;
+}
+
+.photo_v {
+    display: none;
+}
+
+
+
+.block:before {
+      content:"";
+      width:5px;
+      height:1400px;
+      display:block;
+      left:50%;
+      position:absolute;
+background-color: #EDE1E1;
+
+    }
+
+
+
+
+/*burger*/
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+
+.body {
+    overflow: hidden;
+    max-height: -400px;
+}
+
+
+.container {
+    max-width: 400px;
+}
+
+
+/*burger*/
+
+.burger {
+    position: absolute;
+    right: -100%;
+}
+
+
+
+
+
+
+
+/*center*/
+
+.block {
+    left: -170%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
